@@ -1,15 +1,35 @@
-# Transcription Audio avec Whisper
+# 🎙️ Transcription Audio avec Whisper
 
 ## 🎯 Objectif
-Ce projet permet de convertir un fichier audio en texte à l’aide du modèle Whisper d’OpenAI, via une interface web Gradio.
+Ce projet permet de **convertir un fichier audio (MP3, WAV, etc.) en texte** à l’aide du modèle **Whisper** d’OpenAI, à travers une interface web intuitive développée avec **Gradio**.
 
-## 🧠 Technologie utilisée
-- 🔊 [Whisper](https://github.com/openai/whisper)
-- 🧪 Python 3.8+
-- 🌐 [Gradio](https://www.gradio.app/)
+---
 
-## 🚀 Lancer le projet
-1. Cloner le dépôt :
+## 🧰 Technologies utilisées
+
+| Outil        | Description                                |
+|--------------|--------------------------------------------|
+| 🐍 Python     | Version Python 3.11.0                    |
+| 🧠 Whisper    | Modèle de reconnaissance vocale d’OpenAI   |
+| 🌐 Gradio    | Interface web pour lancer facilement l'outil |
+| 🎵 FFmpeg    | Pour le traitement des fichiers audio       |
+
+---
+
+## 📦 Prérequis
+
+Assurez-vous d’avoir installé :
+
+- [Python Python 3.11.0](https://www.python.org/downloads/)
+- [FFmpeg](https://ffmpeg.org/download.html) (et ajouté à la variable d’environnement `PATH`)
+- `pip` (installateur de paquets Python)
+
+---
+
+## 🚀 Installation et lancement du projet
+
+### 1. Cloner le dépôt
+
 ```bash
-git clone https://https://github.com/hindelmouden/Transcription_Audio_To_Text.git
-cd transcription_audio_whisper
+git clone https://github.com/hindelmouden/Transcription_Audio_To_Text.git
+cd Transcription_Audio_To_Text
