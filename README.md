@@ -35,7 +35,7 @@ git clone https://github.com/hindelmouden/Transcription_Audio_To_Text.git
 cd Transcription_Audio_To_Text
 
 
-2. Créer un environnement virtuel (recommandé)
+### 2. Créer un environnement virtuel (recommandé)
 
 python -m venv venv
 source venv/bin/activate   # Sous macOS/Linux
