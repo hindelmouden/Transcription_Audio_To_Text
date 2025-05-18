@@ -41,3 +41,7 @@ cd Transcription_Audio_To_Text
 `python -m venv venv
 source venv/bin/activate   # Sous macOS/Linux
 venv\Scripts\activate      # Sous Windows`
+
+----
+
+### 3. Installer les dépendances :
