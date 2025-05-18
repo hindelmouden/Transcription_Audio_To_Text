@@ -45,3 +45,6 @@ venv\Scripts\activate      # Sous Windows`
 ----
 
 ### 3. Installer les dépendances :
+
+pip install -r requirements.txt
+
