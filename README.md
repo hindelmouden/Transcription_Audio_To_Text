@@ -30,7 +30,7 @@ Assurez-vous d’avoir installé :
 
 ### 1. Cloner le dépôt
 
-```bash
+bash
 git clone https://github.com/hindelmouden/Transcription_Audio_To_Text.git
 cd Transcription_Audio_To_Text
 
