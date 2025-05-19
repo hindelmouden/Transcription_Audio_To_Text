@@ -52,9 +52,63 @@ venv\Scripts\activate      # Sous Windows
 
 ```bash
 pip install -r requirements.txt
+
+
+
 ```
 
-## 4. Lancer l'application :
+## 4. Installer ffmpeg
+
+Téléchargement : Rendez-vous sur le site officiel de ffmpeg : https://ffmpeg.org/download.html
+
+Choix de la version : Pour Windows, vous pouvez utiliser des builds précompilés disponibles sur https://www.gyan.dev/ffmpeg/builds/
+
+Installation :
+
+Téléchargez l'archive ZIP de la version "release full" pour Windows.
+
+Extrayez le contenu de l'archive dans un répertoire de votre choix, par exemple C:\ffmpeg.
+
+À l'intérieur de ce répertoire, vous trouverez un dossier bin contenant l'exécutable ffmpeg.exe.
+
+Ajouter ffmpeg au PATH
+
+Accès aux variables d'environnement :
+
+Cliquez avec le bouton droit sur "Ce PC" ou "Poste de travail" et sélectionnez "Propriétés".
+
+Cliquez sur "Paramètres système avancés".
+
+Dans la fenêtre qui s'ouvre, cliquez sur "Variables d'environnement".
+
+Modification de la variable PATH :
+
+Dans la section "Variables système", recherchez la variable nommée Path et sélectionnez-la, puis cliquez sur "Modifier".
+
+Cliquez sur "Nouveau" et ajoutez le chemin complet vers le dossier bin de ffmpeg, par exemple :
+makefile
+
+```bash
+C:\ffmpeg\bin
+```
+
+Validation :
+
+Cliquez sur "OK" pour fermer toutes les fenêtres et appliquer les modifications.
+Discussions on Python.org
+
+ Vérifier l'installation
+Ouvrez une nouvelle fenêtre de l'invite de commandes (cmd).
+
+Tapez la commande suivante pour vérifier que ffmpeg est correctement installé et accessible :
+
+```bash
+ffmpeg --versoin
+```
+
+---
+
+## 5. Lancer l'application :
 
 ```bash
 python app.py
