@@ -36,25 +36,27 @@ cd Transcription_Audio_To_Text
 
 ---
 
-### 2. Créer un environnement virtuel (recommandé)
+## 2. Créer un environnement virtuel (recommandé)
 
-`python -m venv venv
+```bash
+python -m venv venv
 source venv/bin/activate   # Sous macOS/Linux
-venv\Scripts\activate      # Sous Windows`
+venv\Scripts\activate      # Sous Windows
+```
 
 ----
 
-### 3. Installer les dépendances :
-
-pip install -r requirements.txt
-
-## 🛠️ Run Locally
-
-To run the app on your local machine (GPU recommended):
+## 3. Installer les dépendances :
 
 ```bash
 pip install -r requirements.txt
+```
+
+## 4. Lancer l'application :
+
+```bash
 python app.py
 ```
 
----
+----
+
