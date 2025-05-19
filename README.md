@@ -4,6 +4,7 @@
 Ce projet permet de **convertir un fichier audio (MP3, WAV, etc.) en texte** à l’aide du modèle **Whisper** d’OpenAI, à travers une interface web intuitive développée avec **Gradio**.
 Il est compatible avec plusieurs langues comme le français, l’anglais ou l’arabe.
 
+----
 
 https://github.com/user-attachments/assets/8e2a6eba-54f7-4451-9700-6b2f0ea8cf8f
 
