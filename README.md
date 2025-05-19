@@ -47,3 +47,14 @@ venv\Scripts\activate      # Sous Windows`
 ### 3. Installer les dépendances :
 
 pip install -r requirements.txt
+
+## 🛠️ Run Locally
+
+To run the app on your local machine (GPU recommended):
+
+```bash
+pip install -r requirements.txt
+python app.py
+```
+
+---
