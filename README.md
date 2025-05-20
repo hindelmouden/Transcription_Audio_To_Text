@@ -119,3 +119,7 @@ python app.py
 
 ----
 
+## License
+
+This project is licensed under the [MIT License](https://github.com/hindelmouden/Transcription_Audio_To_Text/blob/master/LICENSE).
+
